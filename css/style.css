@@ -190,7 +190,7 @@ main> section{
 /* deal section style */
 .deal-container{
     display: flex;
-    margin-top: 170px;
+    margin-top: 50px;
     gap: 20px;
 }
 .left-img img{
