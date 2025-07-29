@@ -180,7 +180,66 @@ main> section{
     color: #E95A08;
 }
 .latest-description{
-    font-size: 1.375rem;
+    font-size: 1.2rem;
     text-align: center;
     
 }
+.latest-description{
+    color: rgba(0, 0, 0, 0.5);
+}
+/* deal section style */
+.deal-container{
+    display: flex;
+    margin-top: 170px;
+    gap: 20px;
+}
+.left-img img{
+    width: 100%;
+    border-radius: 5px;
+}
+.deal-tilte h4{
+    align-items: center;
+}
+.deal-tilte{
+   color: #fff;
+   padding-top: 20px;
+   font-size: 20px;
+   font-weight: 700;
+   
+}
+.shop{
+    color: #fff;
+   align-items: center;
+   padding: 30px;
+   font-size: 16px;
+}
+.deal-tilte, .shop{
+    position: absolute;
+    margin-top: 100px;
+    margin-left:100px;
+}
+.right-img{
+    position: relative;
+    margin-top: -40px;
+}
+.right-img img{
+  border-radius: 10px;
+}
+.right-deal-tittle, .right-deal-shop{
+    position: absolute;
+    margin-left: 240px;   
+    color: #fff;
+    margin-top: 250px;
+    
+}
+.right-deal-tittle{
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+ .right-deal-shop{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: -150px;
+    margin-right: -100px;
+ }
