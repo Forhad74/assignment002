@@ -345,3 +345,42 @@ main> section{
   padding-left: 10px;
  
  }
+ /* Media Query screen */
+ @media screen and (max-width:576px){
+   .navbar{
+    margin: 0 50px;
+   }
+    .nav-links{
+    flex-direction: column;
+  }
+  .bannar{
+    flex-direction: column;
+  }
+  .flower-lover{
+    flex-direction: column;
+  }
+  .water-mark{
+    margin-left: 20px;
+  }
+  .flower-img{
+    position: relative;
+    margin-left: 50px;
+    top: -100px;
+    bottom: -100px;
+    margin-right: 50px;
+
+  }
+  .flower-img img{
+    width: 100%;
+  }
+  .deal-container{
+    flex-direction: column;
+  }
+  .flower-left{
+    align-items: center;
+  }
+  .deal-tilte h4{
+    margin-right: 50px;
+  }
+  
+ }
